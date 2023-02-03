@@ -177,3 +177,117 @@ html {
 .app-download img {
   cursor: pointer;
 }
+
+.plans-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.information {
+  margin-bottom: 4rem;
+  align-text: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information .title {
+  font-family: "sora", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--gray-200);
+  margin-bottom: 1rem;
+}
+
+.information p {
+  width: 60%;
+  line-height: 2rem;
+  text-align: center;
+  color: var(--gray);
+  font-family: "inter", sans-serif;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--white-200);
+  border-radius: 0.5rem;
+  height: 32rem;
+  width: 22rem;
+}
+
+.plan strong {
+  font-family: "sora", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--gray-200);
+}
+
+.plan img {
+  margin-top: 1.5rem;
+}
+
+.plan p {
+  width: 100%;
+  line-height: 1.8rem;
+  text-align: center;
+  color: var(--gray);
+  font-family: "inter", sans-serif;
+  margin-top: 1.5rem;
+}
+
+.plans .silver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--gray-200);
+  border-radius: 0.5rem;
+  height: 32rem;
+  width: 22rem;
+}
+
+.plans .silver p {
+  width: 100%;
+  line-height: 1.8rem;
+  text-align: center;
+  color: var(--white);
+  font-family: "inter", sans-serif;
+}
+
+.plans .silver strong {
+  font-family: "sora", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.plan button {
+  border: none;
+  padding: 0.5rem 3rem;
+  background-color: var(--blue);
+  border-radius: 0.8rem;
+  color: var(--white);
+  font-size: 17px;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.plan button:hover {
+  filter: brightness(0.9);
+}
