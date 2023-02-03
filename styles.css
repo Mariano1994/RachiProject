@@ -28,7 +28,7 @@
 .menu {
   display: flex;
   align-items: center;
-  gap: 4.5rem;
+  gap: 4rem;
   font-family: "Inter", sans-serif;
   color: var(--gray);
 }
@@ -37,18 +37,19 @@
   text-decoration: none;
   font-family: "Inter", sans-serif;
   color: var(--gray);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
 .main-content {
   background-color: var(--white-200);
+  padding: 5rem 0;
 }
 
 .main-content-wrapper {
   display: flex;
   flex: 1;
-  gap: 35rem;
+  gap: 10rem;
   align-items: center;
 }
 
@@ -64,15 +65,20 @@
 }
 
 .content .register {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .content a {
   text-decoration: none;
   background: var(--blue);
   color: var(--white);
-  padding: 1rem 3rem;
-  border-radius: 6rem;
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
   font-family: "inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  transition: all 0.2s;
+}
+
+.content a:hover {
+  filter: brightness(0.9);
 }
