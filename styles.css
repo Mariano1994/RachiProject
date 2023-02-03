@@ -41,7 +41,7 @@
   font-weight: normal;
 }
 
-.main-content {
+#section-one {
   background-color: var(--white-200);
   padding: 5rem 0;
 }
