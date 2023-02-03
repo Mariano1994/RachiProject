@@ -82,3 +82,52 @@
 .content a:hover {
   filter: brightness(0.9);
 }
+.how-works-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.how-works-wrapper .title {
+  text-align: center;
+
+  font-family: "sora", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  color: var(--gray-200);
+}
+
+.functionalities {
+  display: flex;
+  justify: space-between;
+  margin-top: 3rem;
+}
+
+.function-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.function-item img {
+  height: 72px;
+  width: 72px;
+}
+
+.function-item strong {
+  font-family: "sora", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--gray-200);
+}
+
+.function-item p {
+  width: 50%;
+  line-height: 2rem;
+  text-align: center;
+  color: var(--gray);
+  font-family: "inter", sans-serif;
+}
