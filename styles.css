@@ -75,10 +75,10 @@ html {
   text-decoration: none;
   background: var(--blue);
   color: var(--white);
-  padding: 1rem 2.5rem;
-  border-radius: 2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 0.8rem;
   font-family: "inter", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   transition: all 0.2s;
 }
@@ -290,4 +290,101 @@ html {
 
 .plan button:hover {
   filter: brightness(0.9);
+}
+
+.contact-wrapper {
+  background-image: url("/assets/contactImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 24rem;
+  margin-top: 6rem;
+}
+
+.contact-content-wrapper {
+  width: 100%;
+  height: 24rem;
+  background-color: rgba(16, 19, 27, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-content-wrapper .title {
+  font-family: "sora", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.contact-content-wrapper p {
+  width: 30%;
+  line-height: 1.8rem;
+  text-align: center;
+  color: var(--white);
+  font-family: "inter", sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+form input {
+  padding: 1rem 10rem 0.4rem 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+  font-family: "inter", sans-serif;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: var(--white);
+  font-size: 1rem;
+}
+form button {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--blue);
+  border-radius: 1rem;
+  color: var(--white);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+form button:hover {
+  filter: brightness(0.9);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+footer p {
+  line-height: 1.8rem;
+  text-align: center;
+  color: var(--gray-200);
+  font-family: "inter", sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  line-height: 1.8rem;
+  text-align: center;
+  color: var(--gray-200);
+  font-family: "inter", sans-serif;
 }
